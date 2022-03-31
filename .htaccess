@@ -1,7 +1,7 @@
 Options All -Indexes
 
 RewriteEngine On
-RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?pagina=$1   # "index.php?pagina" es lo que debemos modificar
+RewriteRule ^([-a-zA-Z0-9_/]+)$ index.php?pagina=$1   # "index.php?pagina" es lo que debemos modificar
 
 #RewriteCond %{HTTP_HOST} !^$
 #RewriteCond %{HTTP_HOST} !^www\. [NC]
